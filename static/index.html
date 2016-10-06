@@ -4,22 +4,112 @@
 <head>
 	<meta charset="utf-8">
 	<title>HCI Project Portfolio</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.4/css/bootstrap.min.css" integrity="sha384-2hfp1SzUoho7/TsGGGDaFdsuuDL0LX2hnUp6VkX3CUQ2K4K+xjboZdsXyp4oUHZj" crossorigin="anonymous">
+	<style>
+	.image-div {
+			max-height: 280px;
+			height: 280px;
+
+
+	}
+	.image-extended {
+			object-fit: cover;
+			min-height: 280px;
+			max-height: 280px;
+			width: 100%;
+	}
+
+	.card-block-extended {
+			height: 290px;
+			max-height: 290px;
+	}
+	</style>
 </head>
 
 <body>
-	<!-- this is a comment in HTML -->
-	<h1>Philip Guo</h1> <!-- h1 through h5 are headers. The higher the number, the smaller the header -->
-	<h4>Project Portfolio</h4>
+	<div class = "container">
+		<h2 style = "margin-top: 20px; margin-bottom: 20px;">Project Portfolio</h2>
+		<div class="jumbotron jumbotron-fluid" style = "margin-top: 10px; margin-bottom: 10px;">
+		  <div class="container">
+		    <h1 class="display-3">Raymond Arevalo</h1>
+		    <p class="lead">Raymond Arevalo is a third year at UCSD studying Cognitive Science with a Specialization in Human Computer Interaction and Computer Science. He is currently a DJ and Web Engineer at KSDT RADIO where he manages web applications built to improve and diversify music selection for the school's radio. His interests consist of software Development (Web), algorithms, cognition, neural networks, photography, and music.</p>
+		  </div>
+		</div>
 
-	<!-- p means paragraph -->
-	<p>Philip Guo is an assistant professor of cognitive science at UC San Diego (Go Tritons!). His research spans human-computer interaction, online learning, and computing education.</p>
+		<h3 style = " margin-top: 40px; margin-bottom: 40px;">Projects</h3>
+		<div class = "row">
+			<div class = "col-lg-4 col-md-6 col-sm-6 col-xs-12">
+				<div class="card">
+					<div class = "image-div">
+						<img class = "card-img-top image-extended" src = "https://s14.postimg.org/l6azer3yp/coupletones.png" alt = "Card image cap">
+					</div>
+					<div class = "card-block card-block-extended">
+						<h5>Couple Tones</h5>
+						<p>Built a mobile app that focuses on maintaining a list of recently visited favorite locations for one’s partner. Tools Used: Parse, Google API, Java. Practices: jUnit Tests, Agile Development, BDD, Design Patterns </p>
+					</div>
+				</div>
+			</div>
+			<div class = "col-lg-4 col-md-6 col-sm-6 col-xs-12">
+				<div class="card">
+					<div class = "image-div">
+						<img class = "card-img-top image-extended" src = "https://s13.postimg.org/ye2bfkmmf/vapormoji.png" alt = "Card image cap">
+					</div>
+					<div class = "card-block card-block-extended">
+						<h5>Vapormoji</h5>
+						<p> Built a photo editor, which combines vaporwave emojis with a picture of choice. Tools Used: JavaScript, jQuery, Bootstrap, HTML, CSS.</p>
 
-	<h4>Projects</h4>
-	<ol>
-		<li>Design Thinking</li>
-		<li>Needfinding</li>
-		<li>Prototyping</li>
-		<li>...</li>
-	</ol>
+					</div>
+				</div>
+			</div>
+			<div class = "col-lg-4 col-md-6 col-sm-6 col-xs-12">
+				<div class="card">
+					<div class = "image-div">
+						<img class = "card-img-top image-extended" src = "https://s15.postimg.org/t8ijz0jgb/songtracker.png" alt = "Card image cap">
+					</div>
+					<div class = "card-block card-block-extended">
+						<h5>songTracker</h5>
+						<p>  Programmed and designed a web application that tracks played songs in order to give the user a diverse selection of music. Tools used: javaScript, jQuery, Firebase, Google Authentication.</p>
+					</div>
+				</div>
+			</div>
+
+			<div class = "col-lg-4 col-md-6 col-sm-6 col-xs-12">
+				<div class="card">
+					<div class = "image-div">
+						<img class = "card-img-top image-extended" src = "https://s12.postimg.org/tenzdjr5p/playlistanalysis.png" alt = "Card image cap">
+					</div>
+					<div class = "card-block card-block-extended">
+						<h5>Playlist Analysis</h5>
+						<p>Developed a web application, which analyzes playlists of current KSDT DJs in order to give the station a diverse selection of music. Currently implementing a uniqueness generator to KSDT’s playlist analysis in order to inform DJs of their level of uniqueness compare to that of the station’s.</p>
+					</div>
+				</div>
+			</div>
+			<div class = "col-lg-4 col-md-6 col-sm-6 col-xs-12">
+				<div class="card">
+					<div class = "image-div">
+						<img class = "card-img-top image-extended" src = "https://s12.postimg.org/drwq06ddp/datareach.png" alt = "Card image cap">
+					</div>
+					<div class = "card-block card-block-extended">
+						<h5>Project Data Reach</h5>
+						<p> Blahhh.</p>
+					</div>
+				</div>
+			</div>
+			<div class = "col-lg-4 col-md-6 col-sm-6 col-xs-12">
+				<div class="card">
+					<div class = "image-div">
+						<img class = "card-img-top image-extended" src = "https://s12.postimg.org/ighb93ry5/rotaractclub.png" alt = "Card image cap">
+					</div>
+					<div class = "card-block card-block-extended">
+						<h5>Rotaract Club</h5>
+						<p> In charge of developing and designing a club website for Rotaract at UCSD for the academic school year of 2015 - 2016.</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.4/js/bootstrap.min.js" integrity="sha384-VjEeINv9OSwtWFLAtmc4JCtEJXXBub00gtSnszmspDLCtC0I4z4nqz7rEFbIZLLU" crossorigin="anonymous"></script>
 </body>
 </html>
